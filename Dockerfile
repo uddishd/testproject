@@ -3,5 +3,4 @@ MAINTAINER "chaitu <chaitu.chaitanya87@gmail.com>"
 RUN aptupdate && apt install -y nginx
 COPY index.html /usr/share/nginx/html
 ADD another command to add...
-COPY index.html /var/www/html
 EXPOSE 80
